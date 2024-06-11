@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-nilfalse",
+  "version": "0.0.1",
+  "homepage": "https://github.com/nilfalse/eslint",
+  "repository": "github:nilfalse/eslint",
+  "scripts": {},
+  "devDependencies": {
+    "@eslint/js": ">= 8",
+    "@types/eslint__js": "^8.42.3"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^28.6.0",
+    "eslint-plugin-react": "^7.34.2",
+    "typescript": "*",
+    "typescript-eslint": "^7.13.0"
+  },
+  "author": "nilfalse.com",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "license": "UNLICENSED",
+  "prettier": {
+    "singleQuote": true
+  }
+}
